@@ -47,7 +47,7 @@ POST http://localhost:8080/password-validator
 ### Premissas e Decisões Tomadas
 
 - Espaços em branco foram considerados inválidos e removidos explicitamente antes da validação, conforme premissa clara do desafio.
-- Método HTTP utilizado pelo endpoint foi o GET
+- Método HTTP utilizado pelo endpoint foi o POST
 - Content-Type utilizado pela API foi o application/json, devolvendo o valor booleano dentro de uma estrutura JSON
 
 ---
